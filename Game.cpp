@@ -6,7 +6,6 @@
 
 #include "Walker.h"
 
-
 Game* Game::s_pInstance = 0;
 
 bool Game::setup()

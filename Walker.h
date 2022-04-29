@@ -1,7 +1,12 @@
 #pragma once
 
+#ifdef _VS
 #include "SDL.h"
 #include "SDL2_gfxPrimitives.h"
+#else
+#include "usr/include/SDL2/SDL.h"
+#include "usr/include/SDL2/SDL2_gfxPrimitives.h"
+#endif
 
 #include "Vector2D.h"
 
