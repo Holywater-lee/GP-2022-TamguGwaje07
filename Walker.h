@@ -1,5 +1,7 @@
 #pragma once
 
+#define _REPLIT
+
 #ifdef _VS
 #include "SDL.h"
 #include "SDL2_gfxPrimitives.h"
