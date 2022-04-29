@@ -5,7 +5,7 @@ const int HEIGHT = 400;
 
 Walker::Walker(float x, float y) : location(x, y), velocity(0, 0), acceleration(0, 0), r(16), maxForce(0.25), maxSpeed(4)
 {
-
+  // commit test
 }
 
 void Walker::update() 
