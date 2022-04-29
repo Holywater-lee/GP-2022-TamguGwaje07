@@ -22,10 +22,8 @@ public:
     void update();
     void clean() {}
 
-    // 키보드
     bool isKeyDown(SDL_Scancode key);
 
-    // 마우스 
     bool isKeyOneDown(SDL_Scancode key);
     bool getMouseButtonState(int buttonNumber);
     Vector2D* getMousePosition();
@@ -40,10 +38,8 @@ private:
     InputHandler();
     static InputHandler* s_pInstance;
 
-    // 키보드
     const Uint8* m_keystates;
 
-    // 마우스
     std::vector<bool> m_mouseButtonStates;
     Vector2D* m_mousePosition;
 };

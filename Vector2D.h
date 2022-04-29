@@ -4,22 +4,22 @@
 
 class Vector2D {
 public:
-    Vector2D(float x, float y) : m_x(x) , m_y(y) {}
+    Vector2D(float x, float y) : m_x(x), m_y(y) {}
     float getX() { return m_x; }
     float getY() { return m_y; }
     void setX(float x) { m_x = x; }
     void setY(float y) { m_y = y; }
-    void limit(float max) // 추가: max 값을 넘었다면 길이를 max 값으로 보정
+    void limit(float max)
     {
-      float l = length();
-      if (l > 0)
-      {
-        if (l > max)
+        float l = length();
+        if (l > 0)
         {
-          (*this) *= 1 / l;
-          (*this) *= max;
+            if (l > max)
+            {
+                (*this) *= 1 / l;
+                (*this) *= max;
+            }
         }
-      }
     }
 
     float length() { return sqrt(m_x * m_x + m_y * m_y); }
@@ -33,7 +33,7 @@ public:
     {
         v1.m_x += v2.m_x;
         v1.m_y += v2.m_y;
-        return v1; 
+        return v1;
     }
 
     Vector2D operator-(const Vector2D& v2) const
@@ -45,7 +45,7 @@ public:
     {
         v1.m_x -= v2.m_x;
         v1.m_y -= v2.m_y;
-        return v1; 
+        return v1;
     }
 
     Vector2D operator*(float scalar)
@@ -59,7 +59,7 @@ public:
         m_y *= scalar;
         return *this;
     }
-    
+
     Vector2D operator/(float scalar)
     {
         return Vector2D(m_x / scalar, m_y / scalar);
@@ -82,25 +82,25 @@ public:
 
     Vector2D RotTranslate(float radian, float tx, float ty)
     {
-      return Vector2D((*this).getX() * cos(radian) - (*this).getY() * sin(radian) + tx, (*this).getX() * sin(radian) + (*this).getY() * cos(radian) + ty);
+        return Vector2D((*this).getX() * cos(radian) - (*this).getY() * sin(radian) + tx, (*this).getX() * sin(radian) + (*this).getY() * cos(radian) + ty);
     }
 
     float constrainSquare(float min, float max) const
     {
-      float distSquare = m_x * m_x + m_y * m_y;
-      if (distSquare > 0)
-      {
-        if (distSquare > max)
+        float distSquare = m_x * m_x + m_y * m_y;
+        if (distSquare > 0)
         {
-          return max;
+            if (distSquare > max)
+            {
+                return max;
+            }
+            else if (distSquare < min)
+            {
+                return min;
+            }
         }
-        else if (distSquare < min)
-        {
-          return min;
-        }
-      }
 
-      return distSquare;
+        return distSquare;
     }
 
 private:
