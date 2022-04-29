@@ -1,0 +1,3 @@
+# lintian complains about this because the upstream SONAME doesn't match the dev symlink name.
+# This isn't a problem so override that tag.
+libsdl2-gfx-1.0-0: dev-pkg-without-shlib-symlink usr/lib/*/libSDL2_gfx-1.0.so.* usr/lib/*/libSDL2_gfx-1.0.so
