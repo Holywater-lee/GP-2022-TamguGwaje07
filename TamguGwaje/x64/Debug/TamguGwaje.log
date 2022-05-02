@@ -1,2 +1,52 @@
-﻿  test.cpp
-D:\github_desktop\GP-2022-TamguGwaje07\TamguGwaje\test.cpp(2,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'SDL.h': No such file or directory
+﻿  Game.cpp
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(25,30): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,145): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.h(24,16): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(21,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(22,28): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(26,31): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(27,35): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(52,58): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(52,43): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(53,54): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(53,39): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(57,45): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(57,35): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  InputHandler.cpp
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(25,30): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,145): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\InputHandler.cpp(29,38): warning C4244: '인수': 'Sint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\InputHandler.cpp(30,38): warning C4244: '인수': 'Sint32'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Walker.cpp
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(25,30): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,145): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.h(24,16): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(18,17): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(42,15): warning C4244: '초기화 중': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(53,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(53,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,121): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,105): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,89): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,73): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,57): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,41): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(56,117): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(56,101): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(56,85): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(56,69): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(56,53): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(56,37): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.cpp
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(25,30): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,145): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,79): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+F:\github_desktop\GP-2022-TamguGwaje07\main.cpp(5,32): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  TamguGwaje.vcxproj -> F:\github_desktop\GP-2022-TamguGwaje07\TamguGwaje\x64\Debug\TamguGwaje.exe
