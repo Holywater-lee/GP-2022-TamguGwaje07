@@ -1,6 +1,6 @@
 #pragma once
 
-#define _REPLIT
+#define _VS
 
 #ifdef _VS
 #include "SDL.h"

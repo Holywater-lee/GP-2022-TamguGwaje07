@@ -80,6 +80,17 @@ public:
         }
     }
 
+    Vector2D Normalized()
+    {
+        float len = length();
+        if (len > 0)
+        {
+            return Vector2D((*this).m_x / len, (*this).m_y / len);
+        }
+
+        return Vector2D(0, 0);
+    }
+
     Vector2D RotTranslate(float radian, float tx, float ty)
     {
         return Vector2D((*this).getX() * cos(radian) - (*this).getY() * sin(radian) + tx, (*this).getX() * sin(radian) + (*this).getY() * cos(radian) + ty);

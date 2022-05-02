@@ -6,6 +6,7 @@ const int HEIGHT = 400;
 Walker::Walker(float x, float y) : location(x, y), velocity(0, 0), acceleration(0, 0), r(16), maxForce(0.25), maxSpeed(4)
 {
 	// commit test
+	// 한글테스트
 }
 
 void Walker::update()
@@ -21,9 +22,11 @@ void Walker::update()
 void Walker::seek(Vector2D target)
 {
 	Vector2D desiredForce = target - location;
-	desiredForce.normalize();
-	desiredForce *= maxSpeed;
-	desiredForce -= velocity;
+	//desiredForce.normalize();
+	//desiredForce *= maxSpeed;
+	desiredForce = desiredForce.Normalized() * maxSpeed - velocity;
+	//desiredForce -= velocity;
+	
 	desiredForce.limit(maxForce);
 	applyForce(desiredForce);
 }

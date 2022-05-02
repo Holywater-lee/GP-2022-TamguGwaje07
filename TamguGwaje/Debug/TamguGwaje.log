@@ -1,33 +1,24 @@
-﻿  Game.cpp
-D:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(25,33): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(85,151): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(85,85): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(34,58): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(34,43): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(35,54): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Game.cpp(35,39): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  Walker.cpp
-D:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(25,33): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(85,151): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(85,85): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(18,17): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(38,15): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(47,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(48,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(48,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(49,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(49,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,121): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,105): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,89): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,73): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,57): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,41): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,117): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,101): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,85): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,69): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,53): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-D:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,37): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  코드를 생성하고 있습니다...
-  TamguGwaje.vcxproj -> D:\github_desktop\GP-2022-TamguGwaje07\TamguGwaje\Debug\TamguGwaje.exe
+﻿  Walker.cpp
+C:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(25,33): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,151): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Vector2D.h(96,85): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(19,17): warning C4244: '=': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(41,15): warning C4244: '초기화 중': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(50,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,37): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(51,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,36): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(52,30): warning C4244: '인수': 'const int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(54,121): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(54,105): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(54,89): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(54,73): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(54,57): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(54,41): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,117): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,101): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,85): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,69): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,53): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\github_desktop\GP-2022-TamguGwaje07\Walker.cpp(55,37): warning C4244: '인수': 'float'에서 'Sint16'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  TamguGwaje.vcxproj -> C:\github_desktop\GP-2022-TamguGwaje07\TamguGwaje\Debug\TamguGwaje.exe
