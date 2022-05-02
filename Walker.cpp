@@ -24,8 +24,10 @@ void Walker::seek(Vector2D target)
 	Vector2D desiredForce = target - location;
 	//desiredForce.normalize();
 	//desiredForce *= maxSpeed;
-	desiredForce = desiredForce.Normalized() * maxSpeed - velocity;
 	//desiredForce -= velocity;
+
+	desiredForce = desiredForce.Normalized() * maxSpeed - velocity;
+	desiredForce *= -1;
 	
 	desiredForce.limit(maxForce);
 	applyForce(desiredForce);
@@ -38,7 +40,7 @@ void Walker::applyForce(Vector2D force)
 
 void Walker::edges()
 {
-	float buffer = r * 2;
+	float buffer = r;
 	if (location.getX() > WIDTH + buffer) location.setX(-buffer);
 	else if (location.getX() < -buffer) location.setX(WIDTH + buffer);
 	if (location.getY() > HEIGHT + buffer) location.setY(-buffer);

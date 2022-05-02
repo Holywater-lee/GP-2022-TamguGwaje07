@@ -51,6 +51,8 @@ private:
 
 	Walker* _walker;
 	Vector2D target;
+
+	std::vector<Vector2D> walls;
 };
 
 typedef Game TheGame;

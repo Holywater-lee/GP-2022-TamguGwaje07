@@ -21,6 +21,13 @@ public:
 	void applyForce(Vector2D force);
 	void seek(Vector2D target);
 	void edges();
+	bool NearWall(Vector2D wall)
+	{
+		float buffer = r * 5;
+		if (location.getX() + buffer >= wall.getX() && location.getX() - buffer <= wall.getX() && location.getY() + buffer >= wall.getY() && location.getY() - buffer <= wall.getY())
+			return true;
+		return false;
+	}
 
 private:
 	Vector2D acceleration;
