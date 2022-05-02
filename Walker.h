@@ -1,7 +1,5 @@
 #pragma once
 
-#define _VS
-
 #ifdef _VS
 #include "SDL.h"
 #include "SDL2_gfxPrimitives.h"
